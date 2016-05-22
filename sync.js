@@ -1,7 +1,7 @@
 module.exports = globSync
 globSync.GlobSync = GlobSync
 
-var fs = require('fs')
+var fs = require('graceful-fs')
 var minimatch = require('minimatch')
 var Minimatch = minimatch.Minimatch
 var Glob = require('./glob.js').Glob
